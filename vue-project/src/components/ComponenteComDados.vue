@@ -8,17 +8,17 @@
 </template>
     
 <style scoped>
-div{
+div {
     text-align: center;
     margin: 30px;
     border: 2px solid rgb(0, 0, 0);
     background-color: grey;
     border-radius: 15px;
     padding: 10px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace; 
 }
 
-p{
+p {
     font-size: 30px;
     font-family: 'Courier New', Courier, monospace;
 }

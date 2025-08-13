@@ -6,7 +6,7 @@
 
 <style scoped>
 div {
-    background-color: rgb(0, 0, 0);
+    background-color: grey;
     padding: 20px;
     margin: 30px;
     border-radius: 5px;
@@ -14,7 +14,11 @@ div {
 }
 
 div:hover {
-    background-color: rgb(75, 73, 73);
+    background-color: rgb(105, 104, 104);
+    transition: all 0.3s ease;
+    transform: scale(1.0);
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0,0, 0.3)
 }
 
 h1 {
